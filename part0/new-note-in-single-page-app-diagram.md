@@ -12,5 +12,5 @@
   
       Note right of browser: Status code 201 in response header signifying the note was created successfuly.
   
-      Note right of browser: Browser executes the function the redraws/re-renders the notes.
+      Note right of browser: Browser executes the function that redraws/re-renders the notes.
 ```
