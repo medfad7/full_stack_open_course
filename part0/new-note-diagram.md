@@ -10,8 +10,7 @@
       server-->>browser: URL Redirect - inducing a GET request
       deactivate server
   
-      Note right of browser: The browser sends a post request to the server, which creates a new note,
-      Note right of browser: then sends back a redirect instruction to the browser that executes a GET request.
+      Note right of browser: The browser sends a post request to the server, which creates a new note, then sends back a redirect instruction to the browser that executes a GET request.
   
       browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
       activate server
